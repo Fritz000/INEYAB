@@ -1,10 +1,8 @@
 import React from 'react';
 import cover from "../assets/cover.png";
-import intersect from "../assets/intersect.png";
 import "../pages/Home.css";
 import { Link } from "react-router-dom";
 import { Video, Smartphone, FileText, Users, Handshake, Gavel, User, Zap } from "lucide-react";
-import Frame10 from "../assets/Frame10.png";
 import Frame1000003979 from "../assets/Frame1000003979.png";
 import Frame206 from "../assets/Frame206.png";
 import Frame205 from "../assets/Frame205.png";
@@ -27,7 +25,7 @@ const Homepage = () => {
       <div className="hero-text">
         <h1>INYEAB SOLICITORS LEGAL SERVICES</h1>
         <p>We are here to help you. Our aim is to serve the best interest of <br />our clients</p>
-        <img src={intersect} alt="Intersect" />
+        <img src="/assets/intersect.png" alt="Intersect" />
       </div>
 
       {/* Service Boxes */}
