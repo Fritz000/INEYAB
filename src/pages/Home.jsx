@@ -1,6 +1,6 @@
 import React from 'react';
-import cover from '../assets/cover.png';
-import intersect from '../assets/intersect.png';
+import cover from "../assets/cover.png";
+import intersect from "../assets/intersect.png";
 import "../pages/Home.css";
 import { Link } from "react-router-dom";
 import { Video, Smartphone, FileText, Users, Handshake, Gavel, User, Zap } from "lucide-react";
