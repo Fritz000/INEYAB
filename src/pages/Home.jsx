@@ -177,7 +177,7 @@ const Homepage = () => {
             expert team provides competent advice on prospects of success and
             acts solely in the clients' best interests in so doing.
           </p>
-          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
+          <button className="blot"><Link to ="/Contact">Talk to us</Link></button>
         </div>
       </div>
       <div className="card">
@@ -189,7 +189,7 @@ const Homepage = () => {
             proceedings, rent arrears, service charges, breach of tenancy
             agreements, tenancy deposit disputes, and leasehold disputes.
           </p>
-          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
+          <button className="blot"><Link to ="/Contact">Talk to us</Link></button>
         </div>
       </div>
       <div className="card">
@@ -202,7 +202,7 @@ const Homepage = () => {
             agreements, and grandparent's rights. Our aim is to resolve family
             and divorce issues in an amicable manner.
           </p>
-          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
+          <button className="blot"><Link to ="/Contact">Talk to us</Link></button>
         </div>
       </div>
       <div className="card">
@@ -214,7 +214,7 @@ const Homepage = () => {
             employment claims. We provide advice and assistance to employers and
             employees on all matters relating to employment matters.
           </p>
-          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
+          <button className="blot"><Link to ="/Contact">Talk to us</Link></button>
         </div>
       </div>
       <div className="card">
@@ -225,7 +225,7 @@ const Homepage = () => {
             We have an excellent record in solving complex immigration and
             asylum issues for our clients.
           </p>
-          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
+          <button className="blot"><Link to ="/Contact">Talk to us</Link></button>
         </div>
       </div>
       <div className="card">
@@ -237,7 +237,7 @@ const Homepage = () => {
             matters including joint ventures, partnership formation, company and
             business sales and purchases.
           </p>
-          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
+          <button className="blot"><Link to ="/Contact">Talk to us</Link></button>
         </div>
       </div>
     </div>

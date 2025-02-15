@@ -10,14 +10,6 @@ a {
   color: inherit;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 10px; /* THIS IS TOO SMALL */
-}
-
 
 .navbar {
   position: fixed;
@@ -41,18 +33,6 @@ a {
   height: auto;
   object-fit: contain;
   border-radius: 0;
-}
-
-.hero-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background: url("../assets/cover.jpg") no-repeat center center/cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .navbar ul {
