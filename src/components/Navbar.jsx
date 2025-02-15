@@ -1,11 +1,12 @@
 import React from 'react';
 import cover from "../assets/cover.png";
 import logo from "../assets/logo.jpg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="hero-container" style={{
-      backgroundImage: `url(${cover})`, // ✅ Fix: Backticks and string format
+      backgroundImage: `url(${cover})`, 
       backgroundSize: "cover",
       backgroundPosition: "center",
       height: "100vh",
@@ -13,12 +14,13 @@ const Navbar = () => {
         <nav className="navbar">
             <img src={logo} alt="LOGO" />
                 <ul>
-                    <li className="active">Home</li>
-                    <li>Services</li>
-                    <li>Our Charges</li>
-                    <li>Contact Us</li>
+                    <li className="active"><Link to="/">Home</Link></li>
+                    <li><Link to="/Services">Services</Link></li>
+                    <li><Link to ="/OurCharges">Our Charges</Link></li>
+                    <li><Link to = "/Contact">Contact Us</Link></li>
             </ul>
-            <button>Talk to us</button>
+            <Link to="/Contact" className="nav-button">Talk to us</Link>
+
         </nav>
     </div>
   );

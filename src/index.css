@@ -75,7 +75,7 @@ a {
   color: #fff;
 }
 
-.navbar button {
+.navbar .nav-button {
   background: #4d52c6;
   color: #fff;
   padding: 12px 25px;
@@ -87,7 +87,7 @@ a {
   transition: 0.3s;
 }
 
-.navbar button:hover {
+.navbar .nav-button:hover {
   background: darkblue;
 }
 

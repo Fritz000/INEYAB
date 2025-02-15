@@ -2,6 +2,7 @@ import React from 'react';
 import cover from '../assets/cover.png';
 import intersect from '../assets/intersect.png';
 import "../pages/Home.css";
+import { Link } from "react-router-dom";
 import { Video, Smartphone, FileText, Users, Handshake, Gavel, User, Zap } from "lucide-react";
 import Frame10 from "../assets/Frame10.png";
 import Frame1000003979 from "../assets/Frame1000003979.png";
@@ -14,8 +15,6 @@ import Frame202 from "../assets/Frame202.png";
 import Frame200 from "../assets/Frame200.png";
 import Frame211 from "../assets/Frame211.png";
 import Cover1 from "../assets/Cover1.png";
-import Logo2 from "../assets/Logo2.jpg";
-
 
 const Homepage = () => {
   return (
@@ -58,8 +57,8 @@ const Homepage = () => {
 
       {/* Buttons Section */}
       <div className="button1">
-        <button>Talk to us</button>
-        <button>View Services</button>
+        <button><Link to ="/Contact">Talk to us</Link></button>
+        <button><Link to ="/Services">View Services</Link></button>
       </div>
 
       <div className="stats-container">
@@ -150,8 +149,8 @@ const Homepage = () => {
     <h3 className='OurServices'>Our services and practices majorly cut across <br/> most relevant legal services</h3>
     <p className='aim'>Our aim is to serve the best interest of our clients</p>
       <div className="trust-buttons1">
-            <button className="primary-btn1">Talk to Us</button>
-            <button className="secondary-btn1">View Services</button>
+            <button className="primary-btn1"><Link to ="/Contact">Talk to Us</Link></button>
+            <button className="secondary-btn1"><Link to ="/Services">View Services</Link></button>
       </div>
     </div>
 
@@ -165,7 +164,7 @@ const Homepage = () => {
             also provide advice on how to amicably resolve claims using the
             alternative dispute resolution (ADR).
           </p>
-          <button className="blot">Talk to us</button>
+          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
         </div>
       </div>
       <div className="card">
@@ -178,7 +177,7 @@ const Homepage = () => {
             expert team provides competent advice on prospects of success and
             acts solely in the clients' best interests in so doing.
           </p>
-          <button className="blot">Talk to us</button>
+          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
         </div>
       </div>
       <div className="card">
@@ -190,7 +189,7 @@ const Homepage = () => {
             proceedings, rent arrears, service charges, breach of tenancy
             agreements, tenancy deposit disputes, and leasehold disputes.
           </p>
-          <button className="blot">Talk to us</button>
+          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
         </div>
       </div>
       <div className="card">
@@ -203,7 +202,7 @@ const Homepage = () => {
             agreements, and grandparent's rights. Our aim is to resolve family
             and divorce issues in an amicable manner.
           </p>
-          <button className="blot">Talk to us</button>
+          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
         </div>
       </div>
       <div className="card">
@@ -215,7 +214,7 @@ const Homepage = () => {
             employment claims. We provide advice and assistance to employers and
             employees on all matters relating to employment matters.
           </p>
-          <button className="blot">Talk to us</button>
+          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
         </div>
       </div>
       <div className="card">
@@ -226,7 +225,7 @@ const Homepage = () => {
             We have an excellent record in solving complex immigration and
             asylum issues for our clients.
           </p>
-          <button className="blot">Talk to us</button>
+          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
         </div>
       </div>
       <div className="card">
@@ -238,7 +237,7 @@ const Homepage = () => {
             matters including joint ventures, partnership formation, company and
             business sales and purchases.
           </p>
-          <button className="blot">Talk to us</button>
+          <button className="blot"><Link to ="Contact">Talk to us</Link></button>
         </div>
       </div>
     </div>
@@ -296,33 +295,33 @@ const Homepage = () => {
           <div className="footer-col">
             <h4>Quick links</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Our Charges</a></li>
-              <li><a href="#">Contact us</a></li>
+              <li><Link to ="/">Home</Link></li>
+              <li><a><Link to="/OurCharges">Our Charges</Link></a></li>
+              <li><a href="#"><Link to ="/Contact">Contact us</Link></a></li>
             </ul>
           </div>
           <div className="footer-col1">
             <h4>Services & Practices</h4>
             <ul>
-              <li><a href="#">Civil litigation</a></li>
-              <li><a href="#">Criminal law</a></li>
-              <li><a href="#">Housing, Landlord  & Tenant Matters</a></li>
-              <li><a href="#">Family Law & Divorce</a></li>
+              <li><a><Link to ="/Services">Civil litigation</Link></a></li>
+              <li><a><Link to ="/Services">Criminal law</Link></a></li>
+              <li><a><Link to ="/Services">Housing, Landlord  & Tenant Matters</Link></a></li>
+              <li><a><Link to ="/Services">Family Law & Divorce</Link></a></li>
             </ul>
           </div>
           <div className="footer-col2">
           <h4>&nbsp;</h4>
             <ul>
-              <li><a href="#">Employment Law</a></li>
-              <li><a href="#">Immigration, Nationality & Asylum Law</a></li>
-              <li><a href="#">Housing, Landlord & Tenant Matters</a></li>
+              <li><a><Link to ="/Services">Employment Law</Link></a></li>
+              <li><a><Link to ="/Services">Immigration, Nationality & Asylum Law</Link></a></li>
+              <li><a><Link to ="/Services">Housing, Landlord & Tenant Matters</Link></a></li>
             </ul>
           </div>
           <div className="footer-col3">
             <h4>Contact</h4>
               <ul>
-                <li><a href="#">02086946419, 07908523354 (Out of Office)</a></li>
-                <li><a href="#">info@inyeabsolicitors.com</a></li>
+              <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
+                <li><a href="info@inyeabsolicitors.com">info@inyeabsolicitors.com</a></li>
               </ul>
             </div>
           </div>
