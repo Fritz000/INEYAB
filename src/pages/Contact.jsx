@@ -31,7 +31,7 @@ const Contact = () => {
         <MapPin size={40} color="#4d52c6" />
         <h3>Address</h3>
         </div>
-        <p>support@myarich.com</p>
+        <p>Capital House, 1st Floor </p><p className='fourty'>47 Rushey Green, Catford, London, SE6 4AS</p>
       </div>
 
       <div className="contact-card">

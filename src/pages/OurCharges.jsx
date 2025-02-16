@@ -1,6 +1,7 @@
 import React from 'react'
 import charges from "../assets/charges.png";
 import "../pages/OurCharges.css";
+import { CircleCheckBig } from "lucide-react";
 import { Link } from "react-router-dom";
 import Cover1 from "../assets/Cover1.png";
 import Frame1000003979 from "../assets/Frame1000003979.png";
@@ -24,6 +25,65 @@ const OurCharges = () => {
     >
     
       </div>
+
+      <div className="wrapper">
+      <div className="card109">
+        <h3>CIVIL LITIGATION</h3>
+        <p>Contact us for an estimate. Our current hourly rates are:</p>
+        <ul>
+          <li><CircleCheckBig size={20} className="icon19" /> Trainee Solicitors, Paralegal &amp; equivalent £130</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Solicitors – Less than 4 years experience £200</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Solicitors /legal executives, 4 years + qualified experience £300</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Solicitors over 8 years qualified experience £400</li>
+        </ul>
+      </div>
+
+      <div className="card109">
+        <h3>CRIMINAL LAW</h3>
+        <p>Contact us for an estimate. Our current hourly rates are:</p>
+        <ul>
+          <li><CircleCheckBig size={20} className="icon19" /> Trainee Solicitors, Paralegal &amp; equivalent £130</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Solicitors – Less than 4 years experience £200</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Solicitors /legal executives, 4 years + qualified experience £300</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Solicitors over 8 years qualified experience £400</li>
+        </ul>
+      </div>
+
+      <div className="card109">
+        <h3>IMMIGRATION, NATIONALITY &amp; ASYLUM</h3>
+        <p>Contact us for an estimate</p>
+        <ul>
+          <li><CircleCheckBig size={20} className="icon19" /> Solicitor: Akeem Ayeni (over 8 years qualified experience)</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Naturalisation or Registration as a British Citizen £1000.</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Applications under the Immigration rules £1,000.</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Applications on behalf of European Economic Area Nationals<br/> and their family members £800 - £2000 depending on complexity<br/> of the case.</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Appeal matters (Immigration) £1,500 - £2,500 plus disbursements.</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Additional Hearing (due to adjournment) at the First Tier Tribunal £500.00.</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Judicial Review work £2,500 plus disbursements. Additional fees <br/> apply on renewal.</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Attendance at detention centres to obtain instructions <br/> &amp; representation £500.00 plus disbursements.</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Bail Application £1000 plus disbursements.</li>
+          
+        </ul>
+      </div>
+
+      <div className="card109">
+        <h3>FAMILY LAW &amp; DIVORCE</h3>
+        <p>Contact us for an estimate</p>
+        <h3>HOUSING, LANDLORD &amp; TENANT</h3>
+        <p>Contact us for an estimate</p>
+        <h3>FAMILY LAW &amp; DIVORCE</h3>
+        <p>Contact us for an estimate</p>
+        <h3>FAMILY LAW &amp; DIVORCE</h3>
+        <p>Contact us for an estimate</p>
+        <ul>
+          <li><CircleCheckBig size={20} className="icon19" /> HOUSING, LANDLORD &amp; TENANT</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Contact us for an estimate</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Divorce - straightforward £1,000</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Optimize Hashtags</li>
+          <li><CircleCheckBig size={20} className="icon19" /> Unlimited Users</li>
+        </ul>
+      </div>
+    </div>
     
           <div className="hero-section101" style={{
                 backgroundImage: `url(${Cover1})`,

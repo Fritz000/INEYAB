@@ -1,5 +1,6 @@
 import React from 'react';
 import cover from "../assets/cover.png";
+import intersect from "../assets/intersect.png";
 import "../pages/Home.css";
 import { Link } from "react-router-dom";
 import { Video, Smartphone, FileText, Users, Handshake, Gavel, User, Zap } from "lucide-react";
@@ -16,39 +17,43 @@ import Cover1 from "../assets/Cover1.png";
 
 const Homepage = () => {
   return (
-    <div className="hero-container" style={{
-      backgroundImage: `url(${cover})`,
-      
-    }}>
+    <div>
+    <div
+          className="hero-container"
+          style={{
+            backgroundImage: `url(${cover})`,
+          }}
+        >
+        
+          </div>
       
       {/* Hero Text */}
       <div className="hero-text">
         <h1>INYEAB SOLICITORS LEGAL SERVICES</h1>
         <p>We are here to help you. Our aim is to serve the best interest of <br />our clients</p>
-        <img src="/assets/intersect.png" alt="Intersect" />
+        <img src={intersect} alt="Intersect" />
       </div>
-
       {/* Service Boxes */}
       <div className="service-boxes">
         <div className="service-box">
           <Video size={50} className="icon1" />
           <div className="text">
             <h3>Video Call</h3>
-            <p>Make video conferencing calls with our professionals</p>
+            <p>Make video conferencing calls with<br/> our professionals</p>
           </div>
         </div>
         <div className="service-box">
           <Smartphone size={50} className="icon2" />
           <div className="text">
             <h3>Mobile Call</h3>
-            <p>Engage our experienced lawyers in resolving your legal problems</p>
+            <p>Engage our experienced lawyers in <br/> resolving your legal problems</p>
           </div>
         </div>
         <div className="service-box">
           <FileText size={50} className="icon3" />
           <div className="text">
             <h3>Document</h3>
-            <p>Request document perusals with us and recommendable solutions.</p>
+            <p>Request document perusals with<br/> us and recommendable solutions.</p>
           </div>
         </div>
       </div>
@@ -138,8 +143,8 @@ const Homepage = () => {
             South East London. We provide a world leading <br/> legal advice and representation at affordable rates. We <br/> offer a friendly, reliable and professional service which is <br/> tailored to meeting the needs of our clients. We have <br/> developed innovative and creative ways to resolve our <br/> client's legal issues.
           </p>
           <div className="trust-buttons">
-            <button className="primary-btn">Talk to Us</button>
-            <button className="secondary-btn">View Services</button>
+            <button className="primary-btn"><Link to ="/Contact">Talk to Us</Link></button>
+            <button className="secondary-btn"><Link to ="/Services">View Services</Link></button>
           </div>
         </div>
       </div>
@@ -226,7 +231,7 @@ const Homepage = () => {
           <button className="blot"><Link to ="/Contact">Talk to us</Link></button>
         </div>
       </div>
-      <div className="card">
+      <div className="card100">
         <img src={Frame200} alt="" />
         <div className="card-content">
           <h3>Business & Commercial Transactions</h3>

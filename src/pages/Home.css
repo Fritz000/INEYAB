@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 .hero-container{
-    background-size: cover;
-    background-position: center;
-    height: 190vh;
-    margin-top: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    position: relative;
+  width: 100%;
+  height: 1176px;
+  background-image: url('/path-to-your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
 }
 
 .hero-text {
     position: absolute;
-    top: 10%; 
+    top: 50%; 
     left: 50%;
     margin-top: -140px;
     transform: translateX(-50%);
@@ -29,16 +28,18 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-    font-size: 45px;
-    font-weight: 900;
-    margin-bottom: 10px;
+  font-size: 55px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  line-height: 65px;
+  font-family: 'open sans', sans-serif;
 }
   
 .hero-text p {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 30px;
     margin-top: 20px;
     font-weight: 100;
     color: #DDDAD9;
@@ -57,8 +58,8 @@
 }
 .service-boxes {
     position: absolute;
-    top: 43%;
-    left: 50%;
+    top: 105%;
+    left: 48%;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
@@ -74,7 +75,7 @@
     color: black;
     padding: 15px 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 324px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -111,8 +112,8 @@
 
 .button1 {
     position: absolute;
-    bottom: 15%;
-    left: 50%;
+    bottom: -60%;
+    left: 48%;
     transform: translateX(-45%);
     display: flex;
     gap: 15px;
@@ -157,11 +158,12 @@
 
 .stats-container {
     position: absolute;
-    top: 95%;
+    top: 184%;
     left: 50%;
     transform: translateX(-50%);
     width: 80%; 
-    max-width: 900px;
+    max-width: 1044px;
+    height: 129.36px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -204,7 +206,7 @@
 
 .legal-services {
   text-align: center;
-  margin-top: 5950px;
+  margin-top: 100px;
   padding: 60px 5%;
   width: 100%;
   background-color: #4d52c6;
@@ -426,9 +428,24 @@
     gap: 20px;
     width: 100%;
     margin-top: -1px;
-    padding: 20px;
+    padding: 0 50px;
     background-color: #F6F6FC; 
 }
+
+.card100 {
+  width: 100%;
+  box-shadow: 0px 2px 4px rgba(225, 227, 239);
+  border-radius: 10px;
+  margin-bottom: 150px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+.card100 img {
+  width: 100%;
+  height: auto;
+}
+
 
 .card {
     width: 100%;
@@ -483,7 +500,6 @@
   padding: 20px;
 }
 
-
 .overlay101 {
   position: absolute;
   width: 100%;
@@ -492,7 +508,6 @@
   left: 0;
   z-index: 1;
 }
-
 
 .hero-content101 {
   position: relative;
@@ -675,7 +690,7 @@ ul {
 
 
 .footer-col ul li a {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: capitalize;
   color: #F4F4F4;
   text-decoration: none;
@@ -727,7 +742,7 @@ ul {
 
 
 .footer-col1 ul li a {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: capitalize;
   color: #F4F4F4;
   text-decoration: none;
@@ -745,27 +760,6 @@ ul {
   color: #ffffff;
   padding-left: 8px;
 }
-
-
-.footer-col .social-links a {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  transition: all 0.5s ease;
-}
-
-.footer-col .social-links a:hover {
-  color: #24262b;
-  background-color: #ffffff;
-}
-
 
 .footer-col2 {
   width: 30%;
@@ -797,7 +791,7 @@ ul {
 
 
 .footer-col2 ul li a {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: capitalize;
   color: #F4F4F4;
   text-decoration: none;
@@ -847,7 +841,7 @@ ul {
 
 
 .footer-col3 ul li a {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: capitalize;
   color: #F4F4F4;
   text-decoration: none;

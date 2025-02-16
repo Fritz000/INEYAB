@@ -69,6 +69,26 @@
     top: 4px; 
   }
 
+  .contact-card .fourty{
+    font-size: 14px;
+    color: #818181;
+    margin-top: 5px;
+    margin-left: 55px;
+    width: 305px;
+    height: 24px;
+    text-align: center;
+  }
+
+  .contact-card .fourty::before{
+    content: "•"; 
+    color: #D9D9D9;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 5px;
+    position: relative;
+    top: 4px; 
+  }
+
   .contact-card .email{
     font-size: 14px;
     color: #818181;
