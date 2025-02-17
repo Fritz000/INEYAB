@@ -36,21 +36,21 @@ const Homepage = () => {
       {/* Service Boxes */}
       <div className="service-boxes">
         <div className="service-box">
-          <Video size={50} className="icon1" />
+          <Video className="icon1" />
           <div className="text">
             <h3>Video Call</h3>
             <p>Make video conferencing calls with<br/> our professionals</p>
           </div>
         </div>
         <div className="service-box">
-          <Smartphone size={50} className="icon2" />
+          <Smartphone className="icon2" />
           <div className="text">
             <h3>Mobile Call</h3>
             <p>Engage our experienced lawyers in <br/> resolving your legal problems</p>
           </div>
         </div>
         <div className="service-box">
-          <FileText size={50} className="icon3" />
+          <FileText className="icon3" />
           <div className="text">
             <h3>Document</h3>
             <p>Request document perusals with<br/> us and recommendable solutions.</p>
