@@ -155,7 +155,7 @@
 .hero-section103 {
   position: relative;
   width: 100%;
-  height: 130vh;
+  height: 200vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -177,9 +177,9 @@
   position: relative;
   z-index: 2;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 50px;
   max-width: 700px;
-  margin-left: 5px;
+  margin-left: -270px;
   color: white;
   margin-bottom: 40px;
 }
@@ -191,7 +191,7 @@
 }
 
 .hero-content103 p {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 100;
   line-height: 1.6;
 }
@@ -203,9 +203,9 @@
   background: #6464c8;
   padding: 30px;
   border-radius: 10px;
-  max-width: 650px;
+  max-width: 950px;
   margin-top: 30px;
-  margin-left: 100px;
+  margin-left: 190px;
   width: 90%;
   text-align: left;
 }
@@ -213,7 +213,7 @@
 .form-container103 h2 {
   text-align: center;
   color: white;
-  font-size: 35px;
+  font-size: 45px;
   margin-bottom: 30px;
 }
 
@@ -224,7 +224,7 @@ form {
 
 .label1 {
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: 5px;
   margin-top: 10px;
 }
@@ -233,7 +233,7 @@ label {
   color: white;
   font-size: 17px;
   margin-bottom: 5px;
-  margin-top: 35px;
+  margin-top: 10px;
 }
 
 span {
@@ -273,6 +273,17 @@ textarea {
 
 .submit1:hover {
   background: #f1f1f1;
+}
+
+.banner {
+  position: relative;
+  width: calc(100% - 90px);
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  min-height: 282px;
+  overflow: hidden;
 }
 
 
@@ -391,17 +402,6 @@ button:hover {
   overflow: hidden;
 }
 
-.card10 img {
-  width: 100%;
-  height: auto;
-}
-
-.card-content10 {
-  flex-grow: 1;
-  padding: 16px;
-  text-align: left;
-}
-
 .card-content10 h3 {
   font-size: 25px;
   margin-bottom: 20px;
@@ -422,6 +422,140 @@ button:hover {
   color: #4d52c6;
   background-color: #fff;
   border: 2px solid #4D52C6;
+}
+
+.hero-section103 {
+  position: relative;
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay103 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.hero-content103 {
+  position: relative;
+  z-index: 2;
+  text-align: left;
+  margin-top: 10px;
+  max-width: 700px;
+  margin-left: 5px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.hero-content103 h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-content103 p {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+
+.form-container103 {
+  position: relative;
+  z-index: 2;
+  background: #6464c8;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 650px;
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 90%;
+  text-align: left;
+}
+
+.form-container103 h2 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label1 {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+label {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+span {
+  color: red;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  height: 70px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+
+.submit1 {
+  width: 100%;
+  height: 70px;
+  padding: 12px;
+  background: white;
+  color: #6464c8;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit1:hover {
+  background: #f1f1f1;
+}
+
+.banner {
+  position: relative;
+  width: calc(100% - 90px);
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  min-height: 282px;
+  overflow: hidden;
 }
  
 }

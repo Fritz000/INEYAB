@@ -67,7 +67,7 @@ const Homepage = () => {
       <div className="stats-container">
       <div className="stat-box">
         <div className="stat-icon">
-          <Users size={50} />
+          <Users />
         </div>
         <div className="stat-text">
           <h2>1700+</h2>
@@ -77,7 +77,7 @@ const Homepage = () => {
 
       <div className="stat-box">
         <div className="stat-icon">
-          <Handshake size={50} />
+          <Handshake  />
         </div>
         <div className="stat-text">
           <h2>HIGH</h2>
@@ -87,7 +87,7 @@ const Homepage = () => {
 
       <div className="stat-box">
         <div className="stat-icon">
-          <Gavel size={50} />
+          <Gavel />
         </div>
         <div className="stat-text">
           <h2>87%</h2>
@@ -103,7 +103,7 @@ const Homepage = () => {
         {/* Service 1 */}
         <div className="service-card">
           <div className="user2">
-          <Zap size={50} className="service-icon" />
+          <Zap className="service-icon" />
           </div>
           <h3>Experience our fast and smooth <br/> legal services</h3>
         </div>
@@ -111,7 +111,7 @@ const Homepage = () => {
         {/* Service 2 */}
         <div className="service-card">
           <div className="user2">
-          <Gavel size={50} className="service-icon" />
+          <Gavel className="service-icon" />
           </div>
           <h3>Seek, Reach and get timely justice <br/> with us</h3>
         </div>
@@ -119,7 +119,7 @@ const Homepage = () => {
         {/* Service 3 */}
         <div className="service-card">
           <div className="user2">
-            <User size={50} className="service-icon" />
+            <User className="service-icon" />
           </div>
           <h3>Talk, Confide and get legal <br/> solutions from Our professionals</h3>
         </div>
@@ -332,7 +332,7 @@ const Homepage = () => {
 
           
         </div>
-        <p className='copy'>&copy; 2024 Ineyab Solicitors. All rights reserved.</p>
+        <p className='copy'>&copy; 2025 Ineyab Solicitors. All rights reserved.</p>
     </footer>
 
   </div>

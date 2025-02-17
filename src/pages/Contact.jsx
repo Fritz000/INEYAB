@@ -23,7 +23,7 @@ const Contact = () => {
         <MapPin size={40} color="#4d52c6" />
         <h3>Address</h3>
         </div>
-        <p>Capital House, 1st Floor </p><p className='fourty'>47 Rushey Green, Catford, London, SE6 4AS</p>
+        <p className='love'>Capital House, 1st Floor </p><p className='fourty'>47 Rushey Green, Catford, London, SE6 4AS</p>
       </div>
 
       <div className="contact-card">
@@ -133,7 +133,7 @@ const Contact = () => {
           
                     
                   </div>
-                  <p className='copy'>&copy; 2024 Ineyab Solicitors. All rights reserved.</p>
+                  <p className='copy'>&copy; 2025 Ineyab Solicitors. All rights reserved.</p>
               </footer>
     </div>
   )

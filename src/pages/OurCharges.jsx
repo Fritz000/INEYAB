@@ -164,7 +164,7 @@ const OurCharges = () => {
           
                     
                   </div>
-                  <p className='copy'>&copy; 2024 Ineyab Solicitors. All rights reserved.</p>
+                  <p className='copy'>&copy; 2025 Ineyab Solicitors. All rights reserved.</p>
               </footer>
     </div>
   )
