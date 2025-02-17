@@ -3,15 +3,7 @@ import contactcover from "../assets/contactcover.png";
 import { MapPin, Phone, Mail } from "lucide-react";
 import "../pages/Contact.css";
 import { Link } from "react-router-dom";
-import Cover1 from "../assets/Cover1.png";
-import Frame1000003979 from "../assets/Frame1000003979.png";
-import Frame206 from "../assets/Frame206.png";
-import Frame205 from "../assets/Frame205.png";
-import Frame204 from "../assets/Frame204.png";
-import Frame203 from "../assets/Frame203.png";
-import Frame201 from "../assets/Frame201.png";
-import Frame202 from "../assets/Frame202.png";
-import Frame200 from "../assets/Frame200.png";
+import Cover1 from "../assets/cover1.png";
 import Frame211 from "../assets/Frame211.png";
 
 const Contact = () => {
