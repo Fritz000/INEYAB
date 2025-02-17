@@ -13,7 +13,7 @@ import Frame201 from "../assets/Frame201.png";
 import Frame202 from "../assets/Frame202.png";
 import Frame200 from "../assets/Frame200.png";
 import Frame211 from "../assets/Frame211.png";
-import Cover1 from "../assets/Cover1.png";
+import Cover1 from "../assets/cover1.png";
 
 const Homepage = () => {
   return (
