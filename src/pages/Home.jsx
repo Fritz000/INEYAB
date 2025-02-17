@@ -1,6 +1,6 @@
 import React from 'react';
 import cover from "../assets/cover.png";
-import intersect from "../assets/intersect.png";
+import Intersect from "../assets/Intersect.png";
 import "../pages/Home.css";
 import { Link } from "react-router-dom";
 import { Video, Smartphone, FileText, Users, Handshake, Gavel, User, Zap } from "lucide-react";
@@ -29,9 +29,9 @@ const Homepage = () => {
       
       {/* Hero Text */}
       <div className="hero-text">
-        <h1>INYEAB SOLICITORS LEGAL SERVICES</h1>
+        <h1>INEYAB SOLICITORS LEGAL SERVICES</h1>
         <p>We are here to help you. Our aim is to serve the best interest of <br />our clients</p>
-        <img src={intersect} alt="Intersect" />
+        <img src={Intersect} alt="Intersect" />
       </div>
       {/* Service Boxes */}
       <div className="service-boxes">
@@ -324,7 +324,7 @@ const Homepage = () => {
             <h4>Contact</h4>
               <ul>
               <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
-                <li><a href="info@inyeabsolicitors.com">info@inyeabsolicitors.com</a></li>
+                <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
               </ul>
             </div>
           </div>

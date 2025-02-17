@@ -1,26 +1,44 @@
-import React from 'react';
-import { useState } from "react";
-import logo from "../assets/logo.jpg";
-import { Link } from "react-router-dom";
-import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import logo from '../assets/logo.jpg';
 
 const Navbar = () => {
-  const [active, setActive] = useState("home");
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [active, setActive] = useState('home');
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <nav className="navbar">
-      <img src={logo} alt="LOGO" />
-      <ul>
-        <li className={active === "home" ? "active" : ""}
-          onClick={() => setActive("home")}> <ul><Link to="/">Home</Link></ul> </li>
-        <li className={active === "services" ? "active" : ""}
-        onClick={() => setActive("services")}> <ul><Link to="/Services">Services</Link></ul> </li>
-        <li className={active === "ourcharges" ? "active" : ""}
-          onClick={() => setActive("ourcharges")}> <ul><Link to="/OurCharges">Our Charges</Link></ul> </li>
-        <li className={active === "contact" ? "active" : ""}
-        onClick={() => setActive("contact")}> <ul><Link to="/Contact">Contact</Link></ul> </li>
-      </ul>
-      <Link to="/Contact" className="nav-button">Talk to us</Link>
+      <div className="navbar-logo">
+        <img src={logo} alt="INEYAB SOLICITORS" />
+      </div>
 
+      <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
+        <ul>
+          <li className={active === 'home' ? 'active' : ''} onClick={() => { setActive('home'); closeMenu(); }}>
+            <Link to="/">Home</Link>
+          </li>
+          <li className={active === 'services' ? 'active' : ''} onClick={() => { setActive('services'); closeMenu(); }}>
+            <Link to="/Services">Services</Link>
+          </li>
+          <li className={active === 'ourcharges' ? 'active' : ''} onClick={() => { setActive('ourcharges'); closeMenu(); }}>
+            <Link to="/OurCharges">Our Charges</Link>
+          </li>
+          <li className={active === 'contact' ? 'active' : ''} onClick={() => { setActive('contact'); closeMenu(); }}>
+            <Link to="/Contact">Contact</Link>
+          </li>
+        </ul>
+        <Link to="/Contact" className="nav-button" onClick={closeMenu}>
+          Talk to us
+        </Link>
+      </div>
+
+      <div className="menu-icon" onClick={toggleMenu}>
+        {menuOpen ? <RiCloseLine size={30} /> : <RiMenu3Line size={30} />}
+      </div>
     </nav>
   );
 };

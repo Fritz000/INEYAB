@@ -128,11 +128,11 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="hero-section101" style={{
+          <div className="hero-section103" style={{
                 backgroundImage: `url(${Cover1})`,
               }}>
-              <div className="overlay101"></div>
-              <div className="hero-content101">
+              <div className="overlay103"></div>
+              <div className="hero-content103">
                 <h1>
                   Be you ever so high, the law <br /> is above you
                 </h1>
@@ -145,7 +145,7 @@ const Services = () => {
                 </p>
               </div>
           
-              <div className="form-container">
+              <div className="form-container103">
                 <h2>Request A Free Consultation</h2>
                 <form>
                   <label className='label1' htmlFor="name">
@@ -207,7 +207,7 @@ const Services = () => {
                       <h4>Contact</h4>
                         <ul>
                         <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
-                          <li><a href="info@inyeabsolicitors.com">info@inyeabsolicitors.com</a></li>
+                          <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
                         </ul>
                       </div>
                     </div>

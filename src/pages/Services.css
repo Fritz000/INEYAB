@@ -151,3 +151,277 @@
     background-color: #fff;
     border: 2px solid #4D52C6;
 }
+
+.hero-section103 {
+  position: relative;
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay103 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.hero-content103 {
+  position: relative;
+  z-index: 2;
+  text-align: left;
+  margin-top: 10px;
+  max-width: 700px;
+  margin-left: 5px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.hero-content103 h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-content103 p {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+
+.form-container103 {
+  position: relative;
+  z-index: 2;
+  background: #6464c8;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 650px;
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 90%;
+  text-align: left;
+}
+
+.form-container103 h2 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label1 {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+label {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 5px;
+  margin-top: 35px;
+}
+
+span {
+  color: red;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  height: 70px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+
+.submit1 {
+  width: 100%;
+  height: 70px;
+  padding: 12px;
+  background: white;
+  color: #6464c8;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit1:hover {
+  background: #f1f1f1;
+}
+
+
+@media (max-width: 768px){
+    .services120-container {
+      width: 100%;
+      height: 70vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+  }
+
+  .services120-content {
+    max-width: 800px;
+    color: white;
+}
+
+.services120-content h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.services120-content p {
+    font-size: 17px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.services130-container {
+  background-color: #f8f8fc;
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.services130-container h2 {
+  font-size: 28px;
+  font-family: 'open sans', sans-serif;
+  line-height: 40px;
+  color: #4d52c6;
+  font-weight: bold;
+}
+
+.services130-container p {
+  font-size: 17px;
+  font-family: 'open sans', sans-serif;
+  line-height: 30px;
+  color: #5c5c5c;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+.talk-to-us {
+  background-color: #4d52c6;
+  color: white;
+  width: 180.27px;
+  height: 60.46px;
+  border-radius: 56.21px;
+}
+
+.view-services {
+  background-color: white;
+  color: #4d52c6;
+  border: 2px solid #4d52c6;
+  width: 180.27px;
+  height: 60.46px;
+  border-radius: 56.21px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.grid-container10 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 90px;
+  width: 100%;
+  padding: 0 50px;
+  background-color: #F6F6FC; 
+}
+
+.card10 {
+  width: 100%;
+  box-shadow: 0px 2px 4px rgba(225, 227, 239);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+.card10 img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content10 {
+  flex-grow: 1;
+  padding: 16px;
+  text-align: left;
+}
+
+.card-content10 h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.card-content10 p {
+  color: #6B6B6B;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.blot {
+  width: 180.27px;
+  height: 60.46px;
+  border-radius: 30px;
+  color: #4d52c6;
+  background-color: #fff;
+  border: 2px solid #4D52C6;
+}
+ 
+}
