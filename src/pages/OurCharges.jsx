@@ -18,64 +18,45 @@ const OurCharges = () => {
     
       </div>
 
-      <div className="wrapper">
-      <div className="card109">
-        <h3>CIVIL LITIGATION</h3>
-        <p>Contact us for an estimate. Our current hourly rates are:</p>
-        <ul>
-          <li><CircleCheckBig size={20} className="icon19" /> Trainee Solicitors, Paralegal &amp; equivalent £130</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Solicitors – Less than 4 years experience £200</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Solicitors /legal executives, 4 years + qualified experience £300</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Solicitors over 8 years qualified experience £400</li>
-        </ul>
-      </div>
+      <section className="pricing-section">
+      <div className="pricing-container">
+        {/* Civil Litigation */}
+        <div className="pricing-box">
+          <h2>Civil Litigation</h2>
+          <p>Contact us for an estimate. Our current hourly rates are:</p>
+          <ul>
+            <li>✅ Trainee Solicitors, Paralegal & equivalent <span className="price">£130</span></li>
+            <li>✅ Solicitors – Less than 4 years experience <span className="price">£200</span></li>
+            <li>✅ Solicitors / legal executives, 4+ years experience <span className="price">£300</span></li>
+            <li>✅ Solicitors over 8 years qualified experience <span className="price">£400</span></li>
+          </ul>
+          <button className="pricing-btn">Talk to us</button>
+        </div>
 
-      <div className="card109">
-        <h3>CRIMINAL LAW</h3>
-        <p>Contact us for an estimate. Our current hourly rates are:</p>
-        <ul>
-          <li><CircleCheckBig size={20} className="icon19" /> Trainee Solicitors, Paralegal &amp; equivalent £130</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Solicitors – Less than 4 years experience £200</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Solicitors /legal executives, 4 years + qualified experience £300</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Solicitors over 8 years qualified experience £400</li>
-        </ul>
-      </div>
+        {/* Criminal Law */}
+        <div className="pricing-box">
+          <h2>Criminal Law</h2>
+          <p>Contact us for an estimate. Our current hourly rates are:</p>
+          <ul>
+            <li>✅ Trainee Solicitors, Paralegal & equivalent <span className="price">£130</span></li>
+            <li>✅ Solicitors – Less than 4 years experience <span className="price">£200</span></li>
+            <li>✅ Solicitors / legal executives, 4+ years experience <span className="price">£300</span></li>
+            <li>✅ Solicitors over 8 years qualified experience <span className="price">£400</span></li>
+          </ul>
+          <button className="pricing-btn">Talk to us</button>
+        </div>
 
-      <div className="card109">
-        <h3>IMMIGRATION, NATIONALITY &amp; ASYLUM</h3>
-        <p>Contact us for an estimate</p>
-        <ul>
-          <li><CircleCheckBig size={20} className="icon19" /> Solicitor: Akeem Ayeni (over 8 years qualified experience)</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Naturalisation or Registration as a British Citizen £1000.</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Applications under the Immigration rules £1,000.</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Applications on behalf of European Economic Area Nationals<br/> and their family members £800 - £2000 depending on complexity<br/> of the case.</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Appeal matters (Immigration) £1,500 - £2,500 plus disbursements.</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Additional Hearing (due to adjournment) at the First Tier Tribunal £500.00.</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Judicial Review work £2,500 plus disbursements. Additional fees <br/> apply on renewal.</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Attendance at detention centres to obtain instructions <br/> &amp; representation £500.00 plus disbursements.</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Bail Application £1000 plus disbursements.</li>
-          
-        </ul>
+        {/* Family Law & Divorce */}
+        <div className="pricing-box">
+          <h2>Family Law & Divorce</h2>
+          <p>Contact us for an estimate. Our current hourly rates are:</p>
+          <ul>
+            <li>✅ Divorce - straightforward <span className="price">£1,000</span></li>
+          </ul>
+          <button className="pricing-btn">Talk to us</button>
+        </div>
       </div>
-
-      <div className="card109">
-        <h3>FAMILY LAW &amp; DIVORCE</h3>
-        <p>Contact us for an estimate</p>
-        <h3>HOUSING, LANDLORD &amp; TENANT</h3>
-        <p>Contact us for an estimate</p>
-        <h3>FAMILY LAW &amp; DIVORCE</h3>
-        <p>Contact us for an estimate</p>
-        <h3>FAMILY LAW &amp; DIVORCE</h3>
-        <p>Contact us for an estimate</p>
-        <ul>
-          <li><CircleCheckBig size={20} className="icon19" /> HOUSING, LANDLORD &amp; TENANT</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Contact us for an estimate</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Divorce - straightforward £1,000</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Optimize Hashtags</li>
-          <li><CircleCheckBig size={20} className="icon19" /> Unlimited Users</li>
-        </ul>
-      </div>
-    </div>
+    </section>
     
           <div className="hero-section101" style={{
                 backgroundImage: `url(${Cover1})`,
@@ -157,6 +138,7 @@ const OurCharges = () => {
                         <ul>
                         <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
                           <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
+                          <li><a href="ineyabsolicitors@yahoo.com">ineyabsolicitors@yahoo.com</a></li>
                         </ul>
                       </div>
                     </div>

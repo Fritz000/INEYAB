@@ -31,7 +31,7 @@ const Services = () => {
       </div>
       </div>
       <div className="services130-container">
-      <h2>Our services and practices majorly cut across <br/> most relevant legal services</h2>
+      <h2>Our services and practices majorly cut across most relevant legal services</h2>
       <p>Our aim is to serve the best interest of our clients</p>
       <div className="buttons">
         <button className="talk-to-us">Talk to us</button>
@@ -207,6 +207,7 @@ const Services = () => {
                         <ul>
                         <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
                           <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
+                          <li><a href="ineyabsolicitors@yahoo.com">ineyabsolicitors@yahoo.com</a></li>
                         </ul>
                       </div>
                     </div>

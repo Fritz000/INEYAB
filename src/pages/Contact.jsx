@@ -126,6 +126,7 @@ const Contact = () => {
                         <ul>
                         <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
                           <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
+                          <li><a href="ineyabsolicitors@yahoo.com">ineyabsolicitors@yahoo.com</a></li>
                         </ul>
                       </div>
                     </div>
