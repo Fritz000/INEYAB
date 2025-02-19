@@ -30,7 +30,7 @@ const Homepage = () => {
       {/* Hero Text */}
       <div className="hero-text">
         <h1>INEYAB SOLICITORS LEGAL SERVICES</h1>
-        <p>We are here to help you. Our aim is to serve the best interest of <br />our clients</p>
+        <p>We are here to help you. Our aim is to serve the best interest of our clients</p>
         <img src={Intersect} alt="Intersect" />
       </div>
       {/* Service Boxes */}
@@ -39,21 +39,21 @@ const Homepage = () => {
           <Video className="icon1" />
           <div className="text">
             <h3>Video Call</h3>
-            <p>Make video conferencing calls with<br/> our professionals</p>
+            <p>Make video conferencing calls with our professionals</p>
           </div>
         </div>
         <div className="service-box">
           <Smartphone className="icon2" />
           <div className="text">
             <h3>Mobile Call</h3>
-            <p>Engage our experienced lawyers in <br/> resolving your legal problems</p>
+            <p>Engage our experienced lawyers in resolving your legal problems</p>
           </div>
         </div>
         <div className="service-box">
           <FileText className="icon3" />
           <div className="text">
             <h3>Document</h3>
-            <p>Request document perusals with<br/> us and recommendable solutions.</p>
+            <p>Request document perusals with us and recommendable solutions.</p>
           </div>
         </div>
       </div>
@@ -128,19 +128,20 @@ const Homepage = () => {
     <div className="whoer">
     <div className="who">
       <h1>Who are we?</h1>
-      <p>We have developed innovative and creative ways to resolve our <br/> client's legal issues.</p>
+      <p>We have developed innovative and creative ways to resolve our client's legal issues.</p>
     </div>
-
+    
+    
     <div className="legal-trust-container">
       <div className="legal-trust-content">
         <div className="trust-image">
           <img src={Frame1000003979} alt="Law Books and Justice" />
         </div>
         <div className="trust-text">
-          <h2>Ineyab solicitors is one <br/> of the most trusted in <br/> the legal field</h2>
+          <h2>Ineyab solicitors is one  of the most trusted in the legal field</h2>
           <p>
             Ineyab Solicitors is a leading law firm in the UK based in Brockley,
-            South East London. We provide a world leading <br/> legal advice and representation at affordable rates. We <br/> offer a friendly, reliable and professional service which is <br/> tailored to meeting the needs of our clients. We have <br/> developed innovative and creative ways to resolve our <br/> client's legal issues.
+            South East London. We provide a world leading legal advice and representation at affordable rates. We offer a friendly, reliable and professional service which is  tailored to meeting the needs of our clients. We have developed innovative and creative ways to resolve our client's legal issues.
           </p>
           <div className="trust-buttons">
             <button className="primary-btn"><Link to ="/Contact">Talk to Us</Link></button>
@@ -248,7 +249,6 @@ const Homepage = () => {
     <div className="hero-section101" style={{
       backgroundImage: `url(${Cover1})`,
     }}>
-    <div className="overlay101"></div>
     <div className="hero-content101">
       <h1>
         Be you ever so high, the law <br /> is above you

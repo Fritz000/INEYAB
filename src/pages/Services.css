@@ -23,7 +23,9 @@
 
 .services120-content h1 {
     font-size: 55px;
-    margin-left: -30px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
     margin-top: 50px;
     font-family: 'open sans', sans-serif;
     font-weight: 900;
@@ -156,30 +158,21 @@
   position: relative;
   width: 100%;
   height: 200vh;
+  width: 100%;
+  height: 150vh;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
-  padding: 20px;
 }
 
-.overlay103 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
 
 .hero-content103 {
-  position: relative;
   z-index: 2;
   text-align: left;
   margin-top: 50px;
+  margin-left: 90px !important;
   max-width: 700px;
-  margin-left: -270px;
+  margin-left: 5px;
   color: white;
   margin-bottom: 40px;
 }
@@ -198,14 +191,13 @@
 
 
 .form-container103 {
-  position: relative;
   z-index: 2;
   background: #6464c8;
   padding: 30px;
   border-radius: 10px;
-  max-width: 950px;
+  max-width: 850px;
   margin-top: 30px;
-  margin-left: 190px;
+  margin-left: 450px;
   width: 90%;
   text-align: left;
 }

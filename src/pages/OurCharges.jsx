@@ -5,18 +5,52 @@ import { CircleCheckBig } from "lucide-react";
 import { Link } from "react-router-dom";
 import Cover1 from "../assets/cover1.png";
 import Frame211 from "../assets/Frame211.png";
+import Frame1000003979 from "../assets/Frame1000003979.png";
 
 const OurCharges = () => {
   return (
     <div className='first'>
     <div
-      className="services120-container"
+      className="charges"
       style={{
         backgroundImage: `url(${charges})`,
       }}
     >
-    
+      <div className="charges-content">
+        <h1>AFFORDABLE LEGAL SOLUTIONS, TAILORED FOR YOU</h1>
+        <p>
+          Legal matters can be complex, but understanding the costs shouldn't be. We offer clean explanations of our charges, so you can make informed decisions without surprises.
+        </p>
       </div>
+    </div>
+
+    <section className="legal-fees-section">
+      <div className="legal-fees-container">
+        {/* Left - Image */}
+        <div className="legal-fees-image">
+          <img src={Frame1000003979} alt="Law consultation" />
+        </div>
+
+        {/* Right - Content */}
+        <div className="legal-fees-content">
+          <h2>Legal Fees that work for You</h2>
+          <div className="legal-fees-buttons">
+            <button className="primary-btn">Talk to us</button>
+            <button className="secondary-btn">View Services</button>
+          </div>
+        </div>
+        </div>
+          <p className='full-width-text'>
+            We have published our price and service information in accordance
+            with the Solicitors Regulation Authority guidance on transparency in
+            respect of charges. Some of our services are offered on an hourly
+            rate basis due to the fact that some of our client’s matters are
+            complex. Our charges do not attract VAT and will be calculated
+            mainly by reference to the time actually spent by the solicitors and
+            other staff in respect of any work which they do on our clients’
+            behalf...
+          </p>
+    </section>
 
       <section className="pricing-section">
       <div className="pricing-container">
@@ -25,33 +59,79 @@ const OurCharges = () => {
           <h2>Civil Litigation</h2>
           <p>Contact us for an estimate. Our current hourly rates are:</p>
           <ul>
-            <li>✅ Trainee Solicitors, Paralegal & equivalent <span className="price">£130</span></li>
-            <li>✅ Solicitors – Less than 4 years experience <span className="price">£200</span></li>
-            <li>✅ Solicitors / legal executives, 4+ years experience <span className="price">£300</span></li>
-            <li>✅ Solicitors over 8 years qualified experience <span className="price">£400</span></li>
+            <li><CircleCheckBig className='iconos'/> Trainee Solicitors, Paralegal & equivalent </li>
+            <li><CircleCheckBig className='iconos'/> Solicitors – Less than 4 years experience</li>
+            <li><CircleCheckBig className='iconos'/> Solicitors / legal executives, 4+ years experience</li>
+            <li><CircleCheckBig className='iconos'/> Solicitors over 8 years qualified experience </li>
           </ul>
           <button className="pricing-btn">Talk to us</button>
         </div>
 
-        {/* Criminal Law */}
+        {/* Civil Litigation */}
         <div className="pricing-box">
           <h2>Criminal Law</h2>
           <p>Contact us for an estimate. Our current hourly rates are:</p>
           <ul>
-            <li>✅ Trainee Solicitors, Paralegal & equivalent <span className="price">£130</span></li>
-            <li>✅ Solicitors – Less than 4 years experience <span className="price">£200</span></li>
-            <li>✅ Solicitors / legal executives, 4+ years experience <span className="price">£300</span></li>
-            <li>✅ Solicitors over 8 years qualified experience <span className="price">£400</span></li>
+            <li><CircleCheckBig className='iconos'/> Trainee Solicitors, Paralegal & equivalent</li>
+            <li><CircleCheckBig className='iconos'/> Solicitors – Less than 4 years experience</li>
+            <li><CircleCheckBig className='iconos'/> Solicitors / legal executives, 4 years + qualified experience</li>
+            <li><CircleCheckBig className='iconos'/> Solicitors over 8 years qualified experience </li>
           </ul>
           <button className="pricing-btn">Talk to us</button>
         </div>
-
-        {/* Family Law & Divorce */}
+        {/* Civil Litigation */}
         <div className="pricing-box">
           <h2>Family Law & Divorce</h2>
           <p>Contact us for an estimate. Our current hourly rates are:</p>
           <ul>
-            <li>✅ Divorce - straightforward <span className="price">£1,000</span></li>
+          <li><CircleCheckBig className='iconos'/> Divorce Straightforward  </li>
+          </ul>
+          <button className="pricing-btn">Talk to us</button>
+        </div>
+
+        <div className="pricing-box">
+          <h2>Housing, Landlord & Tenant</h2>
+          <p>Contact us for an estimate. Our current hourly rates are:</p>
+          <ul>
+          <li><CircleCheckBig className='iconos'/> Possession Action undefended </li>
+          </ul>
+          <button className="pricing-btn">Talk to us</button>
+        </div>
+
+        <div className="pricing-box">
+          <h2>Business & Commercial</h2>
+          <p>Contact us for an estimate. Our current hourly rates are:</p>
+          <ul>
+          <li><CircleCheckBig className='iconos'/> Lease assignment, surrender, extension from  </li>
+          </ul>
+          <button className="pricing-btn">Talk to us</button>
+        </div>
+        {/* Civil Litigation */}
+        
+        {/* Civil Litigation */}
+        <div className="pricing-box">
+          <h2>Miscellaneous</h2>
+          <p>Contact us for an estimate. Our current hourly rates are:</p>
+          <ul>
+          <li><CircleCheckBig className='iconos'/> Consultation Fee  </li>
+          <li><CircleCheckBig className='iconos'/> Solicitors Letters from </li>
+          <li><CircleCheckBig className='iconos'/> Drafting Power of Attorney</li>
+          </ul>
+          <button className="pricing-btn">Talk to us</button>
+        </div>
+
+        <div className="pricing-box1">
+          <h2>Immigration, Nationality & Asylum</h2>
+          <p>Contact us for an estimate. Our current hourly rates are:</p>
+          <ul>
+          <li><CircleCheckBig className='iconos'/> Naturalisation or Registration as a British Citizen  </li>
+          <li><CircleCheckBig className='iconos'/> Applications under the Immigration rules  </li>
+          <li><CircleCheckBig className='iconos'/> Applications on behalf of European Economic Area Nationals and their family members depending on complexity of the case.  </li>
+          <li><CircleCheckBig className='iconos'/> Appeal matters (Immigration) £1,500 - £2,500 plus disbursements. </li>
+          <li><CircleCheckBig className='iconos'/> Additional Hearing (due to adjournment) at the First Tier Tribunal £500.00.  </li>
+          <li><CircleCheckBig className='iconos'/> Judicial Review work £2,500 plus disbursements. Additional fees apply on renewal.  </li>
+          <li><CircleCheckBig className='iconos'/> Attendance at detention centres to obtain instructions &amp; representation £500.00 plus disbursements.  </li>
+          <li><CircleCheckBig className='iconos'/> Bail Application £1000 plus disbursements.  </li>
           </ul>
           <button className="pricing-btn">Talk to us</button>
         </div>
